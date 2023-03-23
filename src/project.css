@@ -12,8 +12,10 @@ nav {
 
 .container {
     margin: auto;
-    width: 40%;
+    width: 25%;
     padding: 40px 100px 40px 100px;
+    background-color: azure;
+    font-size: large;
   }
   
   img {
