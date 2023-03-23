@@ -72,6 +72,9 @@ nav {
   padding-left: 15px;
   margin-top: 30px;
 }
+.title {
+  text-align: center;
+}
 
 .form-element {
   display: block;
