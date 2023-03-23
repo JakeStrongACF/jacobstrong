@@ -1,5 +1,13 @@
 body{
     background-color: tan;
+    display: block;
+}
+
+nav {
+  display: block;
+  width: 100%;
+  margin: auto;
+  background-color: green;
 }
 
 .container {
@@ -15,9 +23,9 @@ body{
   }
 
   .buttons {
-    float: left;
+    display: inline-block;
     list-style: none;
-    margin: none;
+    margin: auto;
     background-color: green;
     width: 150px;
     line-height: 100px;
@@ -30,6 +38,13 @@ body{
     color: #080808;
     text-decoration: none;
   }
+
+  .buttons a:active {
+    text-align: center;
+    background-color: red;
+    color: #080808;
+    text-decoration: none;
+  }
   
   .buttons a {
     text-align: center;
@@ -37,4 +52,73 @@ body{
     color: #ffffff;
     display: block;
   }
+.resume {
+  background-color: white;
+  width: 40%;
+  text-align: center;
+  margin: auto;
+}
+
+.form {
+  background-color: lightcoral;
+  list-style: none;
+  margin: auto;
+  border-style: outset;
+  border-width: thin;
+  border-color: black;
+  border-radius: 4px;
+  width: 430px;
+  height: 500px;
+  padding-left: 15px;
+  margin-top: 30px;
+}
+
+.form-element {
+  display: block;
+  margin: auto;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+.form-element input {
+  float: right;
+  width: 300px;
+}
+
+.button [type="submit"] {
+  background-color: green;
+  color: white;
+  border-width: thin;
+  border-color: green;
+  border-radius: 4px;
+  height: 40px;
+  width: 200px;
+  float: left;
+  font-size: large;
+  margin-top: 30px;
+}
+
+.button [type="reset"] {
+  background-color: white;
+  color: black;
+  border-width: thin;
+  border-color: black;
+  border-radius: 4px;
+  height: 40px;
+  width: 200px;
+  font-size: large;
+  margin-top: 30px;
+}
+
+.button [type="submit"]:hover {
+  background-color: orange;
+  color: black;
+  border-width: thin;
+  border-color: black;
+  border-radius: 4px;
+  height: 40px;
+  width: 200px;
+  font-size: large;
+  margin-top: 30px;
+}
   
