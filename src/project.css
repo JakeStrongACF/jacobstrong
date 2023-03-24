@@ -126,4 +126,29 @@ nav {
   font-size: large;
   margin-top: 30px;
 }
+
+.projects {
+  display: block;
+  background-color: white;
+  width: 30%;
+  margin: auto;
+  text-align: center;
+}
+
+.project1 {
+  display: inline-block;
+  margin: auto;
+  padding: 40px;
+}
+
+.project2 {
+  display: inline-block;
+  margin: auto;
+  padding: 40px;
+
+}
+
+.git_link {
+  font-size: larger;
+}
   
